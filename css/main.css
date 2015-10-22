@@ -1,0 +1,219 @@
+/*Globals*/
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background: #7d797c url(../img/background.jpg) center center no-repeat fixed;
+	background-size: cover;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.clearfix:before, .clearfix:after{
+	content:"";
+	display: table;
+}
+
+.clearfix:after{
+	clear: both;
+}
+
+h1, h2, h3, button, article time{
+	font-family: 'Teko', sans-serif;
+	text-transform: uppercase;
+}
+
+h1{
+	font-weight: 300;
+	font-size: 80px;
+	letter-spacing: 15px;
+	margin-bottom: 10px;	
+}
+ 
+h2{
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+h3{
+	font-weight: 300;
+}
+
+h2, h3, button {
+	letter-spacing: 2px;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+p{
+	color: #b5b3b4;
+	line-height: 15px;
+	margin-bottom: 25px;
+	font-size: 13px;
+}
+
+/*Header*/
+
+.container{
+	max-width: 850px;
+	margin: 0 auto;
+}
+
+.logo{
+	float: left;
+	width: 40px;
+	height: 40px;
+}
+
+.logo img{
+	width: 100%;
+	height: auto;
+}
+
+.hamburger {
+	background-color: #352d2f;
+	padding: 10px 11px;
+}
+
+.fa-bars{
+	font-size: 20px;
+}
+
+header.topHeader{
+	margin-bottom: 100px;
+}
+
+header nav{
+	float: right;
+}
+
+header nav ul{
+	display: none;
+}
+
+/*Main*/
+
+main{
+	width: 60%;
+	margin-bottom: 40px;
+}
+
+
+b.lead{
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 300;
+	color: #d9d8d9;
+	margin-bottom:15px;
+	line-height: 25px;
+}
+
+.info-text{
+	margin-bottom:30px; 
+	font-size: 13px;
+}
+
+section{
+	width: 70%;
+}
+
+form{
+	margin-bottom: 20px;
+}
+
+input, button{
+	border: none;
+	padding: 10px;
+	height: 35px;	
+}
+
+input{
+	font-family: 'Titillium Web', sans-serif;
+	background-color: #fff;
+	width: 65%;	
+}
+
+button{
+	background-color: #f63c3c;
+	color: white;
+	vertical-align: middle;	
+}
+
+button:hover{
+	background-color: #000;
+}
+
+aside{
+	width: 45%;
+}
+
+h3{
+	font-size: 14px;
+}
+
+h3:hover{
+	color: #f63c3c; 
+}
+
+i.fa-twitter{
+	margin-left: 0px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+i.fa-twitter:hover{
+	color: #f63c3c;
+}
+
+article{
+	line-height: 15px;
+	margin-left: 30px;
+	margin-bottom: 25px;
+	font-size: 11px;
+	color: #fff;
+}
+
+article time{
+	display: block;
+	margin-top: 10px;
+	font-size: inherit;
+}
+
+article time, footer{
+color: #959595;
+}
+
+/*footer*/
+footer p{
+	float: left;
+	font-size: 10px;
+}
+
+footer p a{
+	color: #fff;
+}
+
+.terms{
+	float: right;
+	text-decoration: none;
+}
+
+.terms a{
+	font-size: 10px;
+}
+
+.terms a:hover{
+	color: #fff;
+}
+
+.terms a:first-child{
+margin-right: 10px;
+}
+
